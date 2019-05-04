@@ -1,0 +1,32 @@
+./sudoku2 sudoku17.1000.txt +RTS -N2 -s
+1000
+   1,862,502,456 bytes allocated in the heap
+      39,203,656 bytes copied during GC
+       2,651,728 bytes maximum residency (7 sample(s))
+         277,296 bytes maximum slop
+               9 MB total memory in use (0 MB lost due to fragmentation)
+
+                                     Tot time (elapsed)  Avg pause  Max pause
+  Gen  0      2355 colls,  2355 par    0.368s   0.041s     0.0000s    0.0007s
+  Gen  1         7 colls,     6 par    0.017s   0.008s     0.0012s    0.0023s
+
+  Parallel GC work balance: 49.23% (serial 0%, perfect 100%)
+
+  TASKS: 6 (1 bound, 5 peak workers (5 total), using -N2)
+
+  SPARKS: 2 (1 converted, 0 overflowed, 0 dud, 0 GC'd, 1 fizzled)
+
+  INIT    time    0.001s  (  0.001s elapsed)
+  MUT     time    0.881s  (  0.709s elapsed)
+  GC      time    0.385s  (  0.049s elapsed)
+  EXIT    time    0.001s  (  0.000s elapsed)
+  Total   time    1.269s  (  0.759s elapsed)
+
+  Alloc rate    2,114,223,896 bytes per MUT second
+
+  Productivity  69.6% of total user, 93.4% of total elapsed
+
+gc_alloc_block_sync: 10102
+whitehole_spin: 0
+gen[0].sync: 1
+gen[1].sync: 162

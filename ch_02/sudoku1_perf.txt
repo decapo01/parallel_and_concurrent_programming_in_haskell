@@ -1,0 +1,24 @@
+./sudoku1 sudoku17.1000.txt +RTS -s
+1000
+   1,854,445,072 bytes allocated in the heap
+      27,560,048 bytes copied during GC
+         235,848 bytes maximum residency (11 sample(s))
+          73,816 bytes maximum slop
+               2 MB total memory in use (0 MB lost due to fragmentation)
+
+                                     Tot time (elapsed)  Avg pause  Max pause
+  Gen  0      3589 colls,     0 par    0.038s   0.038s     0.0000s    0.0006s
+  Gen  1        11 colls,     0 par    0.002s   0.002s     0.0002s    0.0003s
+
+  INIT    time    0.000s  (  0.000s elapsed)
+  MUT     time    1.091s  (  1.091s elapsed)
+  GC      time    0.040s  (  0.039s elapsed)
+  EXIT    time    0.000s  (  0.000s elapsed)
+  Total   time    1.133s  (  1.131s elapsed)
+
+  %GC     time       3.5%  (3.5% elapsed)
+
+  Alloc rate    1,699,971,422 bytes per MUT second
+
+  Productivity  96.5% of total user, 96.5% of total elapsed
+
